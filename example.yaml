@@ -1,0 +1,41 @@
+#  template
+#
+#  event_name:
+#    description:
+#    version: 1.0,0
+#    enabled: true
+#    parameters:
+#      - required: true
+#        type: String
+#        parameter_name: provider
+#      - required: false
+#        type: String?
+#        parameter_name: user_id
+#
+#
+
+sign_up:
+  description: 会員登録イベント
+  version: 1.0.0
+  enabled: True
+  parameters:
+    - required: True
+      type: String
+      parameter_name: provider
+
+sign_in:
+  description:
+  version: 1.0,0
+  enabled: True
+  parameters:
+    - required: True
+      type: String
+      parameter_name: provider
+    - required: False
+      type: String?
+      parameter_name: user_id
+
+button_tap:
+  description:
+  version: 1.0,0
+  enabled: True
