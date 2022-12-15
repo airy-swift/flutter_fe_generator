@@ -32,7 +32,7 @@ def from_yaml(yaml_data):
 
 
 if __name__ == '__main__':
-    data = read_yaml('yaml/happnect.yaml')
+    data = read_yaml('example.yaml')
     event_datas = from_yaml(data)
 
     result = output(event_datas)
