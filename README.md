@@ -1,5 +1,14 @@
 # flutter_fe_generator
+ファイ○ーエ○ブレ○じゃないよ。
 
+firebase eventを一元管理したいとか血迷った結果のしょうもない産物です。
+
+yamlからflutterのコードを生成します。
+
+xlsxへの出力も考えてますが一旦力尽きました。
+
+---
+## EXAMPLE
 ### base yaml
 
 ```yaml
@@ -14,8 +23,8 @@ sign_in:
     - required: False
       type: String?
       parameter_name: user_id
-logout: ログアウトイベント
-  description:
+logout: 
+  description: ログアウトイベント
   version: 1.0,0
   enabled: True
 ```
