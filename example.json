@@ -1,0 +1,42 @@
+
+[
+  {
+    "version": "1.0.0",
+    "enabled": true,
+    "description": "asdf",
+    "event_name": "sign_up",
+    "parameters": [
+      {
+        "required": true,
+        "type": "String",
+        "parameter_name": "provider"
+      }
+    ]
+  },
+  {
+    "version": "1.0.0",
+    "enabled": true,
+    "description": "asdf",
+    "event_name": "sign_in",
+    "parameters": [
+      {
+        "required": true,
+        "type": "String",
+        "parameter_name": "provider"
+      },
+      {
+        "required": false,
+        "type": "String?",
+        "parameter_name": "user_id"
+      }
+    ]
+  },
+  {
+    "version": "1.0.0",
+    "enabled": true,
+    "description": "asdf",
+    "event_name": "button_tap",
+    "parameters": [
+    ]
+  }
+]
